@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:shadowColor">@color/green</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="textViewAmountStyle">
+        <item name="android:textSize">@dimen/textSizeSmall</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+    </style>
+
+    <style name="textViewPercentStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">top|center_horizontal</item>
+    </style>
+
+    <style name="numberStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">10</item>
+    </style>
+
+    <style name="mainButtonStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/main_button_selector</item>
+    </style>
+
+    <style name="backButtonStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/back_button_selector</item>
+    </style>
+
+    <style name="smallButtonStyle">
+        <item name="android:textSize">@dimen/textSizeNormal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/small_button_selector</item>
+    </style>
+
+</resources>

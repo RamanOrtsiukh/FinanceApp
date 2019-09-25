@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:padding="10dp">
+
+    <TextView
+            android:id="@+id/warningTitle"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/warningTitle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"/>
+
+    <View
+            android:id="@+id/line1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000000"
+            app:layout_constraintStart_toStartOf="@+id/warningTitle"
+            app:layout_constraintEnd_toEndOf="@+id/warningTitle"
+            app:layout_constraintTop_toBottomOf="@+id/warningTitle"/>
+
+    <TextView
+            android:id="@+id/warningMessage"
+            style="@style/textViewStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/warningTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp"/>
+
+    <CheckBox
+            android:id="@+id/warningCheck"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/warningHideTitle"
+            android:textSize="@dimen/textSizeSmall"
+            android:gravity="start|center_vertical"
+            app:layout_constraintTop_toBottomOf="@+id/warningMessage"
+            app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginTop="16dp"/>
+
+    <Button
+            android:id="@+id/cancelButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogButtonNo"
+            app:layout_constraintTop_toTopOf="@+id/positiveButton"
+            app:layout_constraintEnd_toStartOf="@+id/positiveButton"
+            android:layout_marginEnd="8dp"/>
+
+    <Button
+            android:id="@+id/positiveButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogButtonYes"
+            app:layout_constraintTop_toBottomOf="@+id/warningCheck"
+            app:layout_constraintEnd_toEndOf="@+id/warningCheck"
+            android:layout_marginTop="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

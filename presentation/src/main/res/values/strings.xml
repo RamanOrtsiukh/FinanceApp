@@ -1,0 +1,306 @@
+<resources>
+    <string name="app_name">Finance</string>
+    <string name="privacyTitle">Privacy Policy</string>
+    <string name="privacyMessage">Please, read the privacy policy carefully and click \"Accept\" to continue.
+
+        \n\nThis page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+
+        \n\nIf you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+
+        \n\n<b>Information Collection and Use</b>
+
+        \n\nFor a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to Android advertising identifier. The information that I request will be retained on your device and is not collected by me in any way.
+
+        \n\nThe app does use third party services that may collect information used to identify you.
+
+        \n\nLink to privacy policy of third party service providers used by the app
+
+        \n\n<ul>
+            <li><a href="https://policies.google.com/privacy">Google Play Services</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></li>
+            <li><a href="https://firebase.google.com/policies/analytics">Firebase Analytics</a></li>
+            <li><a href="https://fabric.io/privacy">Fabric</a></li>
+            <li><a href="https://try.crashlytics.com/">Crashlytics</a></li>
+        </ul>
+
+        \n\n<b>Log Data</b>
+
+        \n\nI want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+
+        \n\n<b>Cookies</b>
+
+        \n\nCookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory.
+
+        \n\nThis Service does not use these \"cookies\" explicitly. However, the app may use third party code and libraries that use \"cookies\" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+
+        \n\n<b>Service Providers</b>
+
+        \n\nI may employ third-party companies and individuals due to the following reasons:
+
+        \n\n<ul>
+            <li>To facilitate our Service;</li>
+            <li>To provide the Service on our behalf;</li>
+            <li>To perform Service-related services;</li>
+            <li>To assist us in analyzing how our Service is used.</li>
+        </ul>
+        \n\nI want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+
+        \n\n<b>Security</b>
+
+        \n\nI value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+
+        \n\n<b>Links to Other Sites</b>
+
+        \n\nThis Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+        \n\n<b>Changes to This Privacy Policy</b>
+
+        \n\nI may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+
+        \n\n<b>Contact Us</b>
+
+        \n\nIf you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at raman.ortsiukh@gmail.com.</string>
+    <string name="privacyAccept">Accept</string>
+    <string name="privacyDecline">Decline</string>
+    <string name="privacyChoiceTitle">Ads personalization</string>
+    <string name="privacyChoiceMessage">Select the type of advertisement being viewed
+        \n\nPersonalized advertising allows advertisers to cover certain categories of users, depending on their interests and demographic affiliation, as well as data from other sources. Personalized advertising helps to more effectively use advertising resources. You can always opt out of it in your Google account settings.
+        \n\nNon-personalized advertising is an advertisement whose content does not take into account the user\'s actions.</string>
+    <string name="privacyChoicePersTitle">Personalized</string>
+    <string name="privacyChoiceNotPersTitle">Non-personalized</string>
+
+    //main
+    <string name="firstRunTitle">Welcome!</string>
+    <string name="firstRunMessage">With this program you can control your finances: record all income, expenses and
+        debts.\nSeveral settings will help you to choose the desired budget counting mode.\nYou can also view statistics
+        for different periods of time and find out where the money goes.\nTips are displayed on each screen to
+        familiarize yourself with the program.
+    </string>
+    <string name="firstRunAnswer">Continue</string>
+    <string name="balanceTitle">Balance</string>
+    <string name="balanceSignNow">at this moment</string>
+    <string name="cardTitle">card</string>
+    <string name="cashTitle">cash</string>
+    <string name="buttonNewTitle">Add +</string>
+    <string name="buttonMoreTitle">More &#62;</string>
+    <string name="buttonSettingTitle">Settings &#62;</string>
+    <string name="expensesTitle">Expenses</string>
+    <string name="expensesSign">this month</string>
+    <string name="debtsTitle">Debts</string>
+    <string name="balanceOvercomeTitle">Total balance exceed the set value and may not be displayed correctly!\nPlease
+        do not use such large numbers in your calculations.
+    </string>
+    <string name="expensesOvercomeTitle">Total expenses exceed the set value and may not be displayed correctly!\nPlease
+        do not use such large numbers in your calculations.
+    </string>
+    <string name="debtsOvercomeTitle">Total debts exceed the set value and may not be displayed correctly!\nPlease
+        do not use such large numbers in your calculations.
+    </string>
+    <string name="warningTitle">Warning:</string>
+    <string name="warningHideTitle">don\'t show warnings</string>
+    <string name="hintsHideTitle">don\'t show hints</string>
+    <string name="hintMainTitle">Main screen</string>
+    <string name="hintMainMessage">On this screen you can see your current balance, the amount of expenses in this
+        month, as well as the amount of debt for all time.
+        \n\nTo add a balance click \"Add&#160;+\"\nin the Balance section.
+        \n\nTo view the balance at the beginning of the month, as well as select settings, click \"Settings&#160;&#62;\"
+        in the Balance section.
+        \n\nTo add an expense click\n\"Add&#160;+\" in the Expenses section.
+        \n\nTo view all your income, expenses, complete statistics, as well as to change or delete an entry, click
+        \"More&#160;&#62;\"\nin the Expenses section.
+        \n\nTo add a debt click \"Add&#160;+\" in the Debts section.
+        \n\nTo view all your debts or others, to change or delete a debt, click \"More&#160;&#62;\" in the Debts
+        section.
+    </string>
+
+    //balance_more
+    <string name="balanceSignMonth">at the beginning of the month</string>
+    <string name="buttonBackTitle">&#60; Back</string>
+    <string name="buttonDeleteAllTitle">Delete all data</string>
+    <string name="dataDeleteAllTitle">All data is deleted</string>
+    <string name="textViewStartDay">from what day the month starts:
+        \n(affects the calculation of the current month)
+    </string>
+    <string name="textViewSaveRest">transfer of balance to the next month:
+        \n(the current balance will take into account
+        \nthe balance of all previous months)
+    </string>
+    <string name="textViewUseDebts">consider debts when calculating the budget:
+        \n(the money received in debt will increase the
+        \nbalance, and the money given will decrease)
+    </string>
+    <string name="textViewShowHints">show hints</string>
+    <string name="textViewShowWarnings">show warnings</string>
+    <string name="dialogButtonYes">Yes</string>
+    <string name="dialogButtonNo">No</string>
+    <string name="dialogButtonOk">OK</string>
+    <string name="dialogButtonCancel">Cancel</string>
+    <string name="dialogButtonChoiceAll">Select / reset all</string>
+    <string name="dialogDeleteAll">Are you sure you want to delete all data?
+        \n(this action is irreversible)
+    </string>
+    <string name="dialogDateError">The number can be in the range
+        \nfrom 1 to 31
+    </string>
+    <string name="hintBalanceMoreTitle">Balance and settings</string>
+    <string name="hintBalanceMoreMessage">On this screen you can see the current balance, the balance at the beginning
+        of the month. Here you can also change the settings for calculating the balance, the settings for displaying
+        hints and warnings, delete all saved data.
+        \n\nTo change the number from which the new month is counted, enter a number from 1 to 31, the program will
+        remember it itself.
+        \n\nTo change any other setting, check or uncheck the desired setting, the program will remember your choice.
+    </string>
+
+    //balance_new
+    <string name="textViewAmountTitle">Enter the amount:</string>
+    <string name="textViewDateTitle">Date</string>
+    <string name="textViewSymTitle"></string>
+    <string name="buttonAddTitle">Add &#62;</string>
+    <string name="buttonTransferTitle">Transfer &#62;</string>
+    <string name="addToCardTitle">add to card</string>
+    <string name="addToCashTitle">add to cash</string>
+    <string name="changeToCashTitle">transfer from card to cash</string>
+    <string name="changeToCardTitle">transfer from cash to card</string>
+    <string name="addCommentTitle">comment</string>
+    <string name="incomeAddedTitle">Balance added</string>
+    <string name="incomeUpdatedTitle">Balance updated</string>
+    <string name="incomeDeletedTitle">Balance removed</string>
+    <string name="transferAddedTitle">Balance transferred</string>
+    <string name="amountNotFoundTitle">Enter the amount!</string>
+    <string name="dialogDeleteBalance">Are you sure you want to delete this income?
+        \n(this action is irreversible)
+    </string>
+    <string name="errorAmountEnteredTitle">The input amount can contain:
+        \n\n- up to 7 digits for dollars
+        \n- up to 2 digits for cents
+    </string>
+    <string name="warningErrorLowCard">There is not enough money on the card to transfer to cash.
+        \nContinue anyway?
+    </string>
+    <string name="warningErrorLowCash">Cash is not enough to transfer to the card.
+        \nContinue anyway?
+    </string>
+    <string name="hintBalanceNewTitle">Income operations</string>
+    <string name="hintBalanceNewMessage">On this screen you can add a new income, change or delete an existing one. You
+        can also transfer part of the money from the card to cash and vice versa.
+        \n\nTo add income, enter the amount, select a date if necessary, select how income came: on a card or in cash,
+        add a comment if necessary.
+        \n\nTo change the income you need to do the same operations, only with existing income.
+    </string>
+
+    //expenses_new
+    <string name="expenseTitle">Expense</string>
+    <string name="buttonChangeTitle">Change &#62;</string>
+    <string name="buttonDeleteTitle">Delete &#62;</string>
+    <string name="choice1Title">Food</string>
+    <string name="choice2Title">Transport, auto</string>
+    <string name="choice3Title">Internet, telecom</string>
+    <string name="choice4Title">Clothes, shoes</string>
+    <string name="choice7Title">House</string>
+    <string name="choice5Title">Household chemicals</string>
+    <string name="choice8Title">Health</string>
+    <string name="choice6Title">Appliances</string>
+    <string name="choice9Title">Entertainment</string>
+    <string name="choice10Title">Gifts</string>
+    <string name="choice11Title">Pets</string>
+    <string name="choice12Title">Credits</string>
+    <string name="choice13Title">Education</string>
+    <string name="choice14Title">Other</string>
+    <string name="incomeTitle">Income</string>
+    <string name="buttonChangeCategory">
+        <u>Change the name of the selected category</u>
+    </string>
+    <string name="buttonChangeCategoryTitle">Enter a new category name:</string>
+    <string name="changeCategoryTitleError">Enter a category name!</string>
+    <string name="changeCategoryTitleMessage">Change category name?
+        \n(the name will change for all the records for the previous period)
+    </string>
+    <string name="buttonReturnCategoryTitle">Default</string>
+    <string name="changeCategoryTitleSuccess">Category name successfully updated!</string>
+    <string name="dialogDeleteExpense">Are you sure you want to remove this expense?
+        \n(this action is irreversible)
+    </string>
+    <string name="expenseAddedTitle">Expense added</string>
+    <string name="expenseUpdatedTitle">Expense updated</string>
+    <string name="expenseDeletedTitle">Expense removed</string>
+    <string name="warningLowExistBalance">Not enough balance for this operation.
+        \nContinue anyway?
+    </string>
+    <string name="hintExpensesNewTitle">Expense operations</string>
+    <string name="hintExpensesNewMessage">On this screen you can add a new expense, change or delete an existing one.
+        You can also change the name of the selected category to any other.
+        \n\nTo add an expense, enter the amount, select a date as needed, select a purchase category, choose where the
+        money is spent from: a card or cash, add a comment if necessary.
+        \n\nTo change the expense it is necessary to do the same operation, only with the existing expense.
+        \n\nTo change the category name: select the category you want to change, click \"Change the name of the selected
+        category\", enter a new name and click \"OK\".
+        \n\nBy pressing the \"Default\" button, you can return the name of the changed category.
+    </string>
+
+    //expenses_more
+    <string name="fromTitle">from</string>
+    <string name="toTitle">to</string>
+    <string name="ShowPercentsTitle">In percents &#62;</string>
+    <string name="ShowListTitle">As a list &#62;</string>
+    <string name="choiceCategoryTitle">Categories &#62;</string>
+    <string name="choiceCategorySelectTitle">Categories &#62;&#62;&#62;</string>
+    <string name="resultTotalTitle">Total:</string>
+    <string name="resultIncomeTitle">Income:</string>
+    <string name="resultExpensesTitle">Expense:</string>
+    <string name="choiceCategoryMessage">Select categories to display:</string>
+    <string name="choiceCategoryReset">Select all /
+        \nreset all
+    </string>
+    <string name="warningErrorDateExpense">The specified start date of the search should not exceed the end date of the
+        search.
+        \nThe end date of the search will be automatically corrected.
+    </string>
+    <string name="hintExpensesMoreTitle">All income and expenses</string>
+    <string name="hintExpensesMoreMessage">On this screen you can view all your income and expenses, total balance, as
+        well as the amount of income and expenses separately.
+        \n\nTo open income or expense to view, change or delete, click on it.
+        \n\nTo select a time period, click on the date you want to change.
+        \n\nTo select the categories displayed, click \"Categories &#62;\" and check all categories that you want to
+        track.
+        \n\nTo see how much you spent on each category and how much is a percentage of the total expenses, click \"In
+        percents &#62;\".
+        \n\nTo go back to displaying all income and expenses,\nclick \"As a list &#62;\"
+    </string>
+
+    //debts_new
+    <string name="debtTitle">Debt</string>
+    <string name="debtAmountTitle">Debt Amount:</string>
+    <string name="debtFromTitle">Whom owe:</string>
+    <string name="debtToTitle">Who owe:</string>
+    <string name="debtDateStartTitle">Debt start date:</string>
+    <string name="debtDateReturnTitle">Debt return date:</string>
+    <string name="debtFromMe">owe i</string>
+    <string name="debtToMe">owe me</string>
+    <string name="debtAddedTitle">Debt added</string>
+    <string name="debtUpdatedTitle">Debt updated</string>
+    <string name="debtDeletedTitle">Debt removed</string>
+    <string name="amountDebtFromMeNotFoundTitle">Enter whom owe!</string>
+    <string name="amountDebtToMeNotFoundTitle">Enter who owe!</string>
+    <string name="dialogDeleteDebt">Do you really want to delete this debt?
+        \n(this action is irreversible)
+    </string>
+    <string name="warningErrorDateDebt">The selected debt start date must not exceed the debt return date.
+        \nThe debt return date will be automatically corrected.
+    </string>
+    <string name="hintDebtsNewTitle">Debt operations</string>
+    <string name="hintDebtsNewMessage">On this screen you can add a new debt, change or delete an existing one.
+        \n\nTo add a debt, enter the amount, enter who or whom owe, select the debt start date and debt return
+        date, select whether you owe or owe you, choose how the calculation was made: by card or in cash, if
+        necessary, add a comment.
+        \n\nTo change the debt it is necessary to do the same operation, only with the existing debt.
+    </string>
+
+    //debts_more
+    <string name="debtFromMeBig">I owe money</string>
+    <string name="debtToMeBig">Owe me money</string>
+    <string name="hintDebtsMoreTitle">All debts</string>
+    <string name="hintDebtsMoreMessage">On this screen you can see all your debts, as well as the amount you owe and owe
+        you.
+        \n\nTo open a debt to view, change or delete, click on it.
+    </string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeNormal">18dp</dimen>
+    <dimen name="textSizeBig">36dp</dimen>
+    <dimen name="textSizeSmall">14dp</dimen>
+    <dimen name="textSizeMin">12dp</dimen>
+    <dimen name="numberSizeNormal">24dp</dimen>
+    <dimen name="numberSizeBig">32dp</dimen>
+    <dimen name="radioButtonHeightNormal">40dp</dimen>
+    <dimen name="radioButtonHeightBig">50dp</dimen>
+    <dimen name="itemStatsHeight">50dp</dimen>
+    <dimen name="dialogHeight">520dp</dimen>
+</resources>

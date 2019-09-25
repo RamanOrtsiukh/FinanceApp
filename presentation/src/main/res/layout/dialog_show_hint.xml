@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dialogHeight"
+        android:layout_gravity="center_horizontal|center_vertical">
+
+    <TextView
+            android:id="@+id/hintsTitle"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"/>
+
+    <View
+            android:id="@+id/line1"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#000000"
+            app:layout_constraintStart_toStartOf="@+id/hintsTitle"
+            app:layout_constraintEnd_toEndOf="@+id/hintsTitle"
+            app:layout_constraintTop_toBottomOf="@+id/hintsTitle"/>
+
+    <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fadeScrollbars="false"
+            app:layout_constraintTop_toBottomOf="@+id/hintsTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/positiveButton">
+
+        <TextView
+                android:id="@+id/hintsMessage"
+                style="@style/textViewStyle"
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"/>
+
+    </ScrollView>
+
+    <CheckBox
+            android:id="@+id/hintsCheck"
+            style="@style/textViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hintsHideTitle"
+            android:textSize="@dimen/textSizeSmall"
+            android:gravity="start|center_vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/positiveButton"
+            app:layout_constraintBottom_toBottomOf="@+id/positiveButton" android:layout_marginStart="16dp"
+    />
+
+    <Button
+            android:id="@+id/positiveButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogButtonOk"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/hintsCheck" android:layout_marginStart="64dp"
+            android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
